@@ -18,8 +18,4 @@ export class Manager extends Employee {
   get isPrivileged() {
     return this._grade > 4;
   }
-
-  finishConstruction() {
-    if (this.isPrivileged) this.assignCar();
-  }
 }
