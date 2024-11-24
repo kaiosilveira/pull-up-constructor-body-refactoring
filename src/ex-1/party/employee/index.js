@@ -2,8 +2,7 @@ import { Party } from '..';
 
 export class Employee extends Party {
   constructor(name, id, monthlyCost) {
-    super();
-    this._name = name;
+    super(name);
     this._id = id;
     this._monthlyCost = monthlyCost;
   }
